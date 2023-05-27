@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">#7966FF</color>
+    <color name="color_primary_dark">#5142B3</color>
+    <color name="color_secondary">#DD6751</color>
+    <color name="color_ascent">#9FB7FF</color>
+    <color name="title_color">#2C2D2D</color>
+    <color name="subtitle_color">#8C97A9</color>
+    <color name="background_color">#F1EFFC</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+
+    <color name="blackNavy">#10101C</color>
+    <color name="next_1">#8B88DC</color>
+    <color name="next_2">#0183C5</color>
+    <color name="next_3">#2F6DFF</color>
+    <color name="next_4">#5FA091</color>
+    <color name="dark_navy">#0E2132</color>
+    <color name="pin_normal">#6B767E</color>
+    <color name="lavender">#8692f7</color>
+    <color name="grey">#d2d2d2</color>
+</resources>

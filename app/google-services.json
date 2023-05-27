@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "10024285598",
+    "project_id": "expenser-adf6c",
+    "storage_bucket": "expenser-adf6c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10024285598:android:7c3dfe35c1977c807bd28f",
+        "android_client_info": {
+          "package_name": "com.frontendsourcecode.expenser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "10024285598-0jdtk857a7sjmacqprd5ukr1gu5uji9t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.frontendsourcecode.expenser",
+            "certificate_hash": "f27c19783c055bec0c528ad06e60e020e8f9c71d"
+          }
+        },
+        {
+          "client_id": "10024285598-e02atuntj7fcunipsqcnh9s2ecevs27o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe_VeQuniai5_JGcP1I6_BVWLPJQrhXiI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "10024285598-e02atuntj7fcunipsqcnh9s2ecevs27o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

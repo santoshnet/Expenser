@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/circle_primary">
+
+        <com.frontendsourcecode.expenser.customfonts.TextViewMedium
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="₹"
+            android:textColor="#F3F8FE"
+            android:textSize="77dp" />
+    </RelativeLayout>
+
+    <com.frontendsourcecode.expenser.customfonts.TextViewBold
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expenser"
+        android:textColor="@color/color_primary"
+        android:textSize="30dp" />
+</LinearLayout>
+

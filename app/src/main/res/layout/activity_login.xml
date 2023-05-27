@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F8FE"
+    tools:context=".activity.LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="70dp"
+                    android:gravity="center">
+
+                    <include layout="@layout/logo_dark" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80dp"
+                    android:orientation="vertical"
+                    android:padding="25dp">
+
+                    <com.frontendsourcecode.expenser.customfonts.TextViewRegular
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="8dp"
+                        android:layout_marginLeft="3dp"
+                        android:text="@string/login_email"
+                        android:textColor="@color/subtitle_color"
+                        android:textSize="@dimen/label_text" />
+
+                    <com.frontendsourcecode.expenser.customfonts.EditTextMedium
+                        android:id="@+id/login_phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittext_shadow"
+                        android:digits="0123456789"
+                        android:inputType="number"
+                        android:longClickable="false"
+                        android:maxLength="12"
+                        android:padding="16dp"
+                        android:textSize="16dp">
+
+                        <requestFocus></requestFocus>
+                    </com.frontendsourcecode.expenser.customfonts.EditTextMedium>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:id="@+id/otp_layout"
+                        android:visibility="gone">
+                        <com.frontendsourcecode.expenser.helper.PinEntryEditText
+                            android:id="@+id/txt_pin_entry"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:background="@color/white"
+                            android:cursorVisible="false"
+                            android:digits="1234567890"
+                            android:inputType="number"
+                            android:maxLength="6"
+                            android:textIsSelectable="false"
+                            android:textSize="20sp"
+                            android:visibility="visible"
+                            app:pinLineColors="@color/color_ascent" />
+
+                        <com.frontendsourcecode.expenser.customfonts.TextViewRegular
+                            android:id="@+id/resend_otp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:padding="8dp"
+                            android:text="Resend OTP"
+                            android:textColor="@color/color_secondary"
+                            android:textSize="12dp" />
+
+                        <com.frontendsourcecode.expenser.customfonts.ButtonSemiBold
+                            android:id="@+id/verify_otp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="28dp"
+                            android:background="@drawable/button_shadow"
+                            android:padding="16dp"
+                            android:text="Verify OTP"
+                            android:textColor="@color/white"
+                            android:textSize="16dp" />
+                    </LinearLayout>
+
+                    <com.frontendsourcecode.expenser.customfonts.ButtonSemiBold
+                        android:id="@+id/send_otp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="28dp"
+                        android:background="@drawable/button_shadow"
+                        android:padding="16dp"
+                        android:text="Send OTP"
+                        android:textColor="@color/white"
+                        android:textSize="16dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <include
+            android:id="@+id/loading"
+            layout="@layout/loading"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
